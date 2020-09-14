@@ -19,6 +19,6 @@ public class reloadGame : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("GameManager");
+        SceneManager.LoadScene("MainScene");
     }
 }
