@@ -5,5 +5,5 @@ using UnityEngine;
 public class J_InventoryPickup : MonoBehaviour
 {
     [SerializeField]
-    public InventoryItem AssociatedItem;
+    public J_InventoryItem AssociatedItem;
 }

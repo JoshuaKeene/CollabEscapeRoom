@@ -7,7 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class J_InventoryManager : MonoBehaviour
 {
-    public List<InventoryItem> Items;
+    public List<J_InventoryItem> Items;
     public int InventoryLimit;
     public int CurrentInventoryIndex = 0;
 
@@ -216,7 +216,7 @@ public class J_InventoryManager : MonoBehaviour
 
     #region InventoryUtilities
 
-    public void AddItem(InventoryItem X)
+    public void AddItem(J_InventoryItem X)
     {
         if(Items.Count == InventoryLimit)
         {
@@ -281,7 +281,7 @@ public class J_InventoryManager : MonoBehaviour
 
 
 [System.Serializable]
-public class InventoryItem
+public class J_InventoryItem
 {
     public string Name;
     public string Description;
